@@ -1,11 +1,11 @@
 body{
-    background-image: url("../profilovky/bg.webp") ;
+    background-image: url("../profilovky/bg.webp");
+    background-size: cover;
 }
 
 .box{
     margin:auto;
-    height:20em;
-    margin-top: center;
+    margin-top: 15em;
     width:17em;
     background-color: #ffffff;
 }
@@ -18,16 +18,13 @@ h1{
     margin:auto;
     height: 120px;
     width: 120px;
-    margin:center;
     border-radius: 50%;
-    outline: auto;
-    top: 50%;
     transform: translate(0%,-50%);
+    overflow:hidden;
 }
 .circle img{
     width:100%;
-    height: 100%;
-    border-radius: 50%;
+    height: auto;
 }
 .CardText{
     font-size: medium;
