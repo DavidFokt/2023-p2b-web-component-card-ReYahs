@@ -5,6 +5,7 @@ body{
 .box{
     margin:auto;
     height:20em;
+    margin-top: center;
     width:17em;
     background-color: #ffffff;
 }
@@ -20,6 +21,8 @@ h1{
     margin:center;
     border-radius: 50%;
     outline: auto;
+    top: 50%;
+    transform: translate(0%,-50%);
 }
 .circle img{
     width:100%;
