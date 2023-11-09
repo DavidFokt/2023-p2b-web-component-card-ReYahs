@@ -1,10 +1,13 @@
 body{
     background-image: url("../profilovky/bg.webp");
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .box{
-    margin:auto;
+    margin:10px;
     margin-top: 15em;
     width:17em;
     background-color: #ffffff;
@@ -37,4 +40,4 @@ h1{
     stroke-width: 0;
     stroke: currentColor;
     fill: currentColor;
-  }
+}
